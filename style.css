@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#container{
+    width: 400px;
+    height: 400px;
+    border: white solid 0.2px;
+    text-align: center;
+    border-radius: 30px;
+    box-shadow:-20px -20px 30px red;
+    animation: neon 5s infinite;
+}
+@keyframes neon {
+    50% {box-shadow: 20px 20px 30px green ;}
+  }
+#sayac{
+    color: white;
+    font-size: 50px;
+    padding-top: 5%;
+}
+#sayı{
+    color: red;
+    font-size: 150px;
+}
+#azalt,#arttır,#sıfırla{
+    width: 100px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    margin: 5px 20px;
+}
+#azalt{
+    background-color: rgb(117, 26, 26);
+}
+#arttır{
+    background-color:rgb(7, 54, 7);
+}
+#sıfırla{
+    background-color:grey;
+}
+
